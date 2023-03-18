@@ -124,6 +124,31 @@ input{
     background-position: center,top;
 }
 
+[class="text col-lg-6 col-md-12"]{
+    padding-top: 50px;
+}
+.person-img img {
+    height: 40px;
+
+}
+[src="Figma-1-logo.png" ]{
+    position: relative;
+    top: 40%;
+}
+[src="idea-icon-4.png"]{
+    position: relative;
+    top: 30%;
+    left: 15%;
+}
+[src="React-icon.svg.png"]{
+    position: relative;
+    left: 60%;
+}
+[src="5847ea22cef1014c0b5e4833.png"]{
+    position: relative;
+    left: 55%;
+    top: 40%;
+}
 /* extra  small screnns */
 @media (max-width:576px) and (min-width:1px){
     .text{
@@ -140,9 +165,17 @@ input{
         font-size: 14px;
         font-weight: 500;
     }
-}
-[class="text col-lg-6 col-md-12"]{
-    padding-top: 50px;
+    [src="React-icon.svg.png"]{
+        display: none;
+    }
+    [src="5847ea22cef1014c0b5e4833.png"]{
+        position: relative;
+        left: 65%;
+        top: 10%;
+    }
+    [src="Figma-1-logo.png" ]{
+        display: none;
+    }
 }
 /* small */
 @media (max-width:768px) and (min-width:576px){
@@ -160,6 +193,10 @@ input{
         font-size: 14px;
         font-weight: 500;
     }
+    [src="Figma-1-logo.png"]{
+        display: none;
+    }
+    
 }
 /* meduim  */
 @media (max-width:992px) and (min-width:768px){
@@ -169,12 +206,24 @@ input{
         font-weight: 700;
         
     }
-
+    [src="React-icon.svg.png"]{
+        display: none;
+    }
+    [src="5847ea22cef1014c0b5e4833.png"]{
+        position: relative;
+        left: 70%;
+        top: 10%;
+    }
 }
 /* large */
 @media (max-width:1200px) and (min-width:992px){
     [class="text col-lg-6 col-md-12"]{
         padding-top: 110px;
+    }
+    [src="idea-icon-4.png"]{
+        position: relative;
+        top: 20%;
+        left: 10%;
     }
 
 }

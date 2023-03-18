@@ -145,7 +145,7 @@ form img{
 }
 @media only screen and (max-width: 991px) {
 .person-img{
-  height: 250px;
+  height: 500px;
 }
 [src="Figma-1-logo.png"]{
   display: none;
@@ -165,13 +165,19 @@ form img{
 
 }
 .title span{
-  font-size:38px;
+  font-size:70px;
 }
 .title p{
   padding-top: 10px;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 600;
 }
+}
+.nav-link,.navbar-brand{
+  font-size: 40px;
+} 
+[class="fa-solid fa-info"]{
+  font-size: 30px;
 }
 @media only screen and (min-width:1200px) {
   .title{

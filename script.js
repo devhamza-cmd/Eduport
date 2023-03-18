@@ -13,5 +13,7 @@ for (let j=0;j<drop_menu_head.length;j++){
 }
 
   
-  
-  
+const myDiv = document.getElementById('text')
+var divHeight = myDiv.offsetHeight;
+const person = document.querySelector('.person-img'); // replace 'myDiv' with the ID of your div element
+person.style.height = `${divHeight}px`;

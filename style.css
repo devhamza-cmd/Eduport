@@ -149,6 +149,21 @@ input{
     left: 55%;
     top: 40%;
 }
+[class="container d-md-block d-lg-flex justify-content-center "] div{
+    height: 100px;
+}
+[class="container d-md-block d-lg-flex justify-content-center "] div div span{
+    font-size: 18px;
+    
+}
+[class="container d-md-block d-lg-flex justify-content-center "] i{
+    font-size: 40px;
+    padding-right: 20px;
+}
+.it {
+    background-color: #0668C6;
+    border-radius: 50px;
+}
 /* extra  small screnns */
 @media (max-width:576px) and (min-width:1px){
     .text{

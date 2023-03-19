@@ -149,20 +149,48 @@ input{
     left: 55%;
     top: 40%;
 }
-[class="container d-md-block d-lg-flex justify-content-center "] div{
-    height: 100px;
+[class="col-3"]{
+  background-color: red;
 }
-[class="container d-md-block d-lg-flex justify-content-center "] div div span{
-    font-size: 18px;
-    
+.item{
+  height:90px;
+  border-radius: 6px;
 }
-[class="container d-md-block d-lg-flex justify-content-center "] i{
-    font-size: 40px;
-    padding-right: 20px;
+#two i{
+  font-size: 40px;
 }
-.it {
-    background-color: #0668C6;
-    border-radius: 50px;
+#three {
+  height: 100vh;
+}
+#three h1{
+  font-weight: 900;
+  font-size: 50px;
+}
+#three [class="container d-flex"]{
+  background-color: red;
+}
+#three [class="container col-12 d-flex justify-content-center mt-3"]{
+  background-color:#202c39 ;
+  border-radius: 8px;
+}
+#test{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.container{
+  border: none;
+}
+.card{
+  background-color: transparent;
+}
+.card-body{
+  background-color:#1b1e21 ;
+  border: none;
+  
 }
 /* extra  small screnns */
 @media (max-width:576px) and (min-width:1px){
@@ -211,7 +239,10 @@ input{
     [src="Figma-1-logo.png"]{
         display: none;
     }
-    
+    #three h1{
+      font-weight: 900;
+      font-size: 35px;
+    }
 }
 /* meduim  */
 @media (max-width:992px) and (min-width:768px){

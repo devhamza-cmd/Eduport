@@ -15,5 +15,11 @@ for (let j=0;j<drop_menu_head.length;j++){
   
 const myDiv = document.getElementById('text')
 var divHeight = myDiv.offsetHeight;
-const person = document.querySelector('.person-img'); // replace 'myDiv' with the ID of your div element
+const person = document.querySelector('.person-img');
 person.style.height = `${divHeight}px`;
+const tab_btn=document.querySelectorAll(".tab button")
+const container_tab=document.querySelector('#three [class="container d-flex"]')
+var container_tab_height=container_tab.offsetWidth
+for (let i=0;i<tab_btn.length;i++){
+  tab_btn[i].style.width=`${container_tab_height/5}px`
+}

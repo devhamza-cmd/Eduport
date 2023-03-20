@@ -15,6 +15,10 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="blobz.css">
   <link rel="stylesheet" href="blobz.min.css">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 </head>
 
 <body>
@@ -203,16 +207,17 @@
       </div>
     </div>
     <div class="container col-12 d-flex justify-content-center mt-3">
-      <div class="grou-btn">
-        <button type="button" class="btn btn-primary mt-2 mb-2 ">Web Design</button>
-        <button type="button" class="btn btn-primary mt-2 mb-2">Developement</button>
-        <button type="button" class="btn btn-primary mt-2 mb-2">Graphic Design</button>
-        <button type="button" class="btn btn-primary mt-2 mb-2">Marketing</button>
-        <button type="button" class="btn btn-primary mt-2mb-2">Finance</button>
+      <div class="grou-btn" id="tabs-container">
+
+        <button type="button" class="btn btn-primary mt-2 mb-2 " id="webdesign">Web Design</button>
+        <button type="button" class="btn btn-primary mt-2 mb-2" id="dev">Developement</button>
+        <button type="button" class="btn btn-primary mt-2 mb-2" id="graphic">Graphic Design</button>
+        <button type="button" class="btn btn-primary mt-2 mb-2" id="marketing">Marketing</button>
+        <button type="button" class="btn btn-primary mt-2mb-2" id="finance">Finance</button>
       </div>
     </div>
-    <div class="container  mt-3 " id="test">
-      <div class="container card mt-5" style="width: 18rem;">
+    <div class="test webdesign container  mt-3 animate__animated animate__fadeIn">
+      <div class="container card mt-5" style="width: 18rem;" id="Sketch">
         <img src="https://eduport.webestica.com/assets/images/courses/4by3/08.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Sketch from A to Z: for app designer</h5>
@@ -224,7 +229,7 @@
           </div>
         </div>
       </div>
-      <div class="container  card mt-5" style="width: 18rem;">
+      <div class="container  card mt-5" style="width: 18rem;" id="photoshop">
         <img src="https://eduport.webestica.com/assets/images/courses/4by3/02.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Graphic Design Masterclass</h5>
@@ -237,8 +242,8 @@
           </div>
         </div>
       </div>
-      <div class="container card mt-5" style="width: 18rem;">
-        <img src="https://eduport.webestica.com/assets/images/courses/4by3/03.jpg" class="card-img-top" alt="...">
+      <div class="container card mt-5" style="width: 18rem;" id="Figma">
+        <img src="https://eduport.webestica.com/assets/images/courses/4by3/03.jpg" class="card-img-top" alt="..." id="figma">
         <div class="card-body">
           <h5 class="card-title">Create a Design System in Figma</h5>
           <p class="card-text">Rooms oh fully taken by worse do Points afraid but may end</p>
@@ -250,7 +255,7 @@
         </div>
 
       </div>
-      <div class="container card mt-5" style="width: 18rem;">
+      <div class="container card mt-5" style="width: 18rem;" id="html">
          
         <img src="https://eduport.webestica.com/assets/images/courses/4by3/11.jpg" class="card-img-top" alt="...">
         <div class="card-body">
@@ -263,7 +268,7 @@
           </div>
         </div>
       </div>
-      <div class="container card mt-5" style="width: 18rem;">
+      <div class="container card mt-5" style="width: 18rem;" id="css">
         
         <img src="https://eduport.webestica.com/assets/images/courses/4by3/12.jpg" class="card-img-top" alt="...">
         <div class="card-body">
@@ -277,11 +282,11 @@
           </div>
         </div>
       </div>
-      <div class="container card mt-5" style="width: 18rem;">
+      <div class="container card mt-5" style="width: 18rem;" id="in">
         
-        <img src="https://eduport.webestica.com/assets/images/courses/4by3/07.jpg" class="card-img-top" alt="...">
+        <img src="https://eduport.webestica.com/assets/images/courses/4by3/04.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Deep Learning with React-Native</h5>
+          <h5 class="card-title">Learn Invision with in design</h5>
           <p class="card-text">Far advanced settling say finished raillery. Offered chiefly</p>
           <hr>
           <div class="d-flex justify-content-around">
@@ -290,8 +295,213 @@
           </div>
         </div>
       </div>
-
+      <div class="container card mt-5" style="width: 18rem;" id="js">
+        
+        <img src="https://eduport.webestica.com/assets/images/courses/4by3/09.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">JavaScript: Full Understanding</h5>
+          <p class="card-text">Far advanced settling say finished raillery. Offered chiefly</p>
+          <hr>
+          <div class="d-flex justify-content-around">
+            <span ><i style="color:#cb283c" class="fa-solid fa-clock"></i> 12h 56m</span>
+            <span><i style="color:orange"  class="fa-solid fa-arrow-rotate-right"></i>  15 lectures</span>
+          </div>
+        </div>
+      </div>   
     </div>
+    <div class="test dev container  mt-3 animate__animated animate__fadeIn">
+      <div class="container card mt-5" style="width: 18rem;" id="Sketch">
+        <img src="https://eduport.webestica.com/assets/images/courses/4by3/05.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Sketch from A to Z: for app designer</h5>
+          <p class="card-text">Proposal indulged no do sociable he throwing settling.</p>
+          <hr>
+          <div class="d-flex justify-content-around">
+            <span ><i style="color:#cb283c" class="fa-solid fa-clock"></i> 12h 56m</span>
+            <span><i  class="fa-solid fa-arrow-rotate-right" style="color:orange"></i>  15 lectures</span>
+          </div>
+        </div>
+      </div>
+      <div class="container  card mt-5" style="width: 18rem;" id="photoshop">
+        <img src="https://eduport.webestica.com/assets/images/courses/4by3/06.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Graphic Design Masterclass</h5>
+          <p class="card-text">Rooms oh fully taken by worse do Points afraid but may end
+          </p>
+          <hr>
+          <div class="d-flex justify-content-around">
+            <span ><i style="color:#cb283c" class="fa-solid fa-clock"></i> 12h 56m</span>
+            <span><i style="color:orange"  class="fa-solid fa-arrow-rotate-right"></i>  15 lectures</span>
+          </div>
+        </div>
+      </div>
+      <div class="container card mt-5" style="width: 18rem;" id="Figma">
+        <img src="https://eduport.webestica.com/assets/images/courses/4by3/07.jpg" class="card-img-top" alt="..." id="figma">
+        <div class="card-body">
+          <h5 class="card-title">Create a Design System in Figma</h5>
+          <p class="card-text">Rooms oh fully taken by worse do Points afraid but may end</p>
+          <hr>
+          <div class="d-flex justify-content-around">
+            <span ><i style="color:#cb283c" class="fa-solid fa-clock"></i> 12h 56m</span>
+            <span><i style="color:orange"  class="fa-solid fa-arrow-rotate-right"></i>  15 lectures</span>
+          </div>
+        </div>
+
+      </div>
+      <div class="container card mt-5" style="width: 18rem;" id="html">
+         
+        <img src="https://eduport.webestica.com/assets/images/courses/4by3/09.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Build Responsive Websites with HTML</h5>
+          <p class="card-text">Far advanced settling say finished raillery. Offered chiefly</p>
+          <hr>
+          <div class="d-flex justify-content-around">
+            <span ><i style="color:#cb283c" class="fa-solid fa-clock"></i> 12h 56m</span>
+            <span><i style="color:orange"  class="fa-solid fa-arrow-rotate-right"></i>  15 lectures</span>
+          </div>
+        </div>
+      </div>
+      <div class="container card mt-5" style="width: 18rem;" id="css">
+        
+        <img src="https://eduport.webestica.com/assets/images/courses/4by3/10.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Build Responsive Websites with CSS</h5>
+          <p class="card-text">Far advanced settling say finished raillery. Offered chiefly
+          </p>
+          <hr>
+          <div class="d-flex justify-content-around">
+            <span ><i style="color:#cb283c" class="fa-solid fa-clock"></i> 12h 56m</span>
+            <span><i style="color:orange"  class="fa-solid fa-arrow-rotate-right"></i>  15 lectures</span>
+          </div>
+        </div>
+      </div>
+      <div class="container card mt-5" style="width: 18rem;" id="in">
+        
+        <img src="https://eduport.webestica.com/assets/images/courses/4by3/13.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Learn Invision with in design</h5>
+          <p class="card-text">Far advanced settling say finished raillery. Offered chiefly</p>
+          <hr>
+          <div class="d-flex justify-content-around">
+            <span ><i style="color:#cb283c" class="fa-solid fa-clock"></i> 12h 56m</span>
+            <span><i style="color:orange"  class="fa-solid fa-arrow-rotate-right"></i>  15 lectures</span>
+          </div>
+        </div>
+      </div>  
+    </div>
+    <div class="test graphic container  mt-3 animate__animated animate__fadeIn">
+      <div class="container card mt-5" style="width: 18rem;" id="Sketch">
+        <img src="https://eduport.webestica.com/assets/images/courses/4by3/08.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Sketch from A to Z: for app designer</h5>
+          <p class="card-text">Proposal indulged no do sociable he throwing settling.</p>
+          <hr>
+          <div class="d-flex justify-content-around">
+            <span ><i style="color:#cb283c" class="fa-solid fa-clock"></i> 12h 56m</span>
+            <span><i  class="fa-solid fa-arrow-rotate-right" style="color:orange"></i>  15 lectures</span>
+          </div>
+        </div>
+      </div>
+      <div class="container  card mt-5" style="width: 18rem;" id="photoshop">
+        <img src="https://eduport.webestica.com/assets/images/courses/4by3/04.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Graphic Design Masterclass</h5>
+          <p class="card-text">Rooms oh fully taken by worse do Points afraid but may end
+          </p>
+          <hr>
+          <div class="d-flex justify-content-around">
+            <span ><i style="color:#cb283c" class="fa-solid fa-clock"></i> 12h 56m</span>
+            <span><i style="color:orange"  class="fa-solid fa-arrow-rotate-right"></i>  15 lectures</span>
+          </div>
+        </div>
+      </div>
+      <div class="container card mt-5" style="width: 18rem;" id="Figma">
+        <img src="https://eduport.webestica.com/assets/images/courses/4by3/02.jpg" class="card-img-top" alt="..." id="figma">
+        <div class="card-body">
+          <h5 class="card-title">Create a Design System in Figma</h5>
+          <p class="card-text">Rooms oh fully taken by worse do Points afraid but may end</p>
+          <hr>
+          <div class="d-flex justify-content-around">
+            <span ><i style="color:#cb283c" class="fa-solid fa-clock"></i> 12h 56m</span>
+            <span><i style="color:orange"  class="fa-solid fa-arrow-rotate-right"></i>  15 lectures</span>
+          </div>
+        </div>
+
+      </div>
+      <div class="container card mt-5" style="width: 18rem;" id="html">
+         
+        <img src="https://eduport.webestica.com/assets/images/courses/4by3/03.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Build Responsive Websites with HTML</h5>
+          <p class="card-text">Far advanced settling say finished raillery. Offered chiefly</p>
+          <hr>
+          <div class="d-flex justify-content-around">
+            <span ><i style="color:#cb283c" class="fa-solid fa-clock"></i> 12h 56m</span>
+            <span><i style="color:orange"  class="fa-solid fa-arrow-rotate-right"></i>  15 lectures</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="test marketing container  mt-3 animate__animated animate__fadeIn">
+      <div class="container card mt-5" style="width: 18rem;" id="Sketch">
+        <img src="https://eduport.webestica.com/assets/images/courses/4by3/01.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Sketch from A to Z: for app designer</h5>
+          <p class="card-text">Proposal indulged no do sociable he throwing settling.</p>
+          <hr>
+          <div class="d-flex justify-content-around">
+            <span ><i style="color:#cb283c" class="fa-solid fa-clock"></i> 12h 56m</span>
+            <span><i  class="fa-solid fa-arrow-rotate-right" style="color:orange"></i>  15 lectures</span>
+          </div>
+        </div>
+      </div>
+      <div class="container  card mt-5" style="width: 18rem;" id="photoshop">
+        <img src="https://eduport.webestica.com/assets/images/courses/4by3/08.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Graphic Design Masterclass</h5>
+          <p class="card-text">Rooms oh fully taken by worse do Points afraid but may end
+          </p>
+          <hr>
+          <div class="d-flex justify-content-around">
+            <span ><i style="color:#cb283c" class="fa-solid fa-clock"></i> 12h 56m</span>
+            <span><i style="color:orange"  class="fa-solid fa-arrow-rotate-right"></i>  15 lectures</span>
+          </div>
+        </div>
+      </div>
+      
+
+      </div>
+    <div class="test finance container  mt-3 animate__animated animate__fadeIn">
+        <div class="container card mt-5" style="width: 18rem;" id="Sketch">
+          <img src="https://eduport.webestica.com/assets/images/courses/4by3/04.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Sketch from A to Z: for app designer</h5>
+            <p class="card-text">Proposal indulged no do sociable he throwing settling.</p>
+            <hr>
+            <div class="d-flex justify-content-around">
+              <span ><i style="color:#cb283c" class="fa-solid fa-clock"></i> 12h 56m</span>
+              <span><i  class="fa-solid fa-arrow-rotate-right" style="color:orange"></i>  15 lectures</span>
+            </div>
+          </div>
+        </div>
+        <div class="container  card mt-5" style="width: 18rem;" id="photoshop">
+          <img src="https://eduport.webestica.com/assets/images/courses/4by3/09.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Graphic Design Masterclass</h5>
+            <p class="card-text">Rooms oh fully taken by worse do Points afraid but may end
+            </p>
+            <hr>
+            <div class="d-flex justify-content-around">
+              <span ><i style="color:#cb283c" class="fa-solid fa-clock"></i> 12h 56m</span>
+              <span><i style="color:orange"  class="fa-solid fa-arrow-rotate-right"></i>  15 lectures</span>
+            </div>
+          </div>
+        </div>
+        
+  
+    </div>  
+    </div>
+    
   </section>
   <script src="script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"

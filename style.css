@@ -173,13 +173,9 @@ input{
   background-color:#202c39 ;
   border-radius: 8px;
 }
-#test{
+.test{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  justify-content: space-between;
-  align-items: center;
-  
 }
 .container{
   border: none;
@@ -190,7 +186,6 @@ input{
 .card-body{
   background-color:#1b1e21 ;
   border: none;
-  
 }
 /* extra  small screnns */
 @media (max-width:576px) and (min-width:1px){

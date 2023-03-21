@@ -187,6 +187,29 @@ input{
   background-color:#1b1e21 ;
   border: none;
 }
+[class="container  d-lg-flex col-12 justify-content-center align-items-center"]{
+  background-color:#17a2b8;
+  border-radius: 8px;
+  margin-top:70px ;
+  padding: 20px;
+  background-image: url(29111878-removebg-preview.png);
+}
+[class="container  d-lg-flex col-12 justify-content-center align-items-center"] h3{
+  font-weight: 900;
+  
+}
+[class="container  d-lg-flex col-12 justify-content-center align-items-center"] button{
+  height: 50%;
+  background-color: transparent;
+  border: #f7c32e solid 1px;
+  color:#f7c32e ;
+  padding: 10px;
+  transition: 0.4s;
+}
+[class="container  d-lg-flex col-12 justify-content-center align-items-center"] button:hover{
+  background-color:#f7c32e;
+  color: white;
+}
 /* extra  small screnns */
 @media (max-width:576px) and (min-width:1px){
     .text{

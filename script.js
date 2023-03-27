@@ -80,14 +80,3 @@ productContainers.forEach((item, i) => {
       item.scrollLeft -= containerWidth;
   })
 })
-document.querySelector("#five").addEventListener('mouseover',function(){
-  document.querySelector(".pre-btn").style.display='block'
-  document.querySelector(".nxt-btn").style.display='block'
-})
-document.querySelector("#five").addEventListener('mouseout',function(){
-  document.querySelector(".pre-btn").style.display='none'
-  document.querySelector(".nxt-btn").style.display='none'
-})
-for(let i=0;i<document.querySelectorAll('#five [class="container card mt-5"]').length;i++){
-  document.querySelectorAll('#five [class="container card mt-5"]')[i].style.width='calc(100vw/3.5)'
-}

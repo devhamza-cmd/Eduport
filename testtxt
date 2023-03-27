@@ -1,0 +1,43 @@
+<div class="it col-3 d-flex align-items-center me-4 mt-4 ">
+                <div class="col-6 d-flex justify-content-end align-items-center">
+                    <i class="fa-solid fa-desktop"></i>
+                </div>
+                <div class="col-6 pt-3">
+                    <span>10K</span>
+                    <br>
+                    <span>Online Courses</span>
+                </div>
+            </div>
+            <div class="it col-lg-3 col-md-12 d-flex align-items-center me-4 mt-4">
+                <div class="col-6 d-flex justify-content-end align-items-center  ">
+                    <i class="fa-solid fa-user-tie"></i>
+                </div>
+                <div class="col-6 pt-3">
+                    <span>200+</span>
+                    <br>
+                    <span>Expert Tutors</span>
+                </div>
+                
+            </div>
+            <div class="it col-lg-3 col-md-12 d-flex align-items-center me-4 mt-4">
+                <div class="col-6 d-flex justify-content-end align-items-center">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+                <div class=" col-6 pt-3">
+                    <span>60K+</span>
+                    <br>
+                    <span>Online Students</span>
+                </div>
+                
+            </div>
+            <div class= "it col-lg-3 col-md-12 d-flex align-items-center mt-4 me-4">
+                <div class="col-6 d-flex justify-content-end align-items-center">
+                    <i class="fa-solid fa-circle-check"></i>
+                </div>
+                
+                <div class="col-6 pt-3">
+                    <span>6K+</span>
+                    <br>
+                    <span>Certified </span>
+                </div>
+            </div>

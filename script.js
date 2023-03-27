@@ -1,6 +1,5 @@
 var drop_menu_elements = document.querySelectorAll('.dropdown-item');
 var drop_menu_head = document.querySelectorAll('#drop-menu-head');
-console.log(drop_menu_elements.length)
 for (let j = 0; j < drop_menu_elements.length; j++) {
   drop_menu_elements[j].addEventListener('mouseover', function () {
     for (let i = 0; i < drop_menu_head.length; i++) {
@@ -66,3 +65,29 @@ finance.addEventListener('click',function(){
   document.querySelector('[class="test marketing container  mt-3 animate__animated animate__fadeIn"]').style.display='none'
   document.querySelector('[class="test finance container  mt-3 animate__animated animate__fadeIn"]').style.display='flex'
 })
+const productContainers = [...document.querySelectorAll('.events')];
+const nxtBtn = [...document.querySelectorAll('.nxt-btn')];
+const preBtn = [...document.querySelectorAll('.pre-btn')];
+productContainers.forEach((item, i) => {
+  let containerDimensions = item.getBoundingClientRect();
+  let containerWidth = containerDimensions.width;
+  nxtBtn[i].addEventListener('click', () => {
+    console.log(item.scrollLeft )
+      item.scrollLeft +=350
+  })
+
+  preBtn[i].addEventListener('click', () => {
+      item.scrollLeft -= 350
+  })
+})
+document.querySelector("#five").addEventListener('mouseover',function(){
+  document.querySelector(".pre-btn").style.display='block'
+  document.querySelector(".nxt-btn").style.display='block'
+})
+document.querySelector("#five").addEventListener('mouseout',function(){
+  document.querySelector(".pre-btn").style.display='none'
+  document.querySelector(".nxt-btn").style.display='none'
+})
+for(let i=0;i<document.querySelectorAll('#five [class="container card mt-5"]').length;i++){
+  document.querySelectorAll('#five [class="container card mt-5"]')[i].style.width='calc(100vw/3.5)'
+}

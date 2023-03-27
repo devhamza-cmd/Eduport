@@ -73,11 +73,11 @@ productContainers.forEach((item, i) => {
   let containerWidth = containerDimensions.width;
   nxtBtn[i].addEventListener('click', () => {
     console.log(item.scrollLeft )
-      item.scrollLeft +=350
+      item.scrollLeft +=containerWidth
   })
 
   preBtn[i].addEventListener('click', () => {
-      item.scrollLeft -= 350
+      item.scrollLeft -= containerWidth;
   })
 })
 document.querySelector("#five").addEventListener('mouseover',function(){

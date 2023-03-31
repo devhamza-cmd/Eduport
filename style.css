@@ -257,6 +257,50 @@ font-size: 50px;
   color: #0cbc87;
   font-size: 30px;
 }
+#six{
+  background-color:#2a2c31 ;
+}
+#six .all{
+  margin-top: 100px;
+  padding-top: 40px;
+  text-align: center;
+}
+.all h2{
+  font-weight: bold;
+  font-size: 35px;
+}
+.all p{
+  opacity: 0.7;
+}
+.all button{
+  font-weight: bold;
+  font-size: 20px;
+}
+.review1{
+  background-color:#1b1e21 ;
+  text-align: center;
+  border-radius: 20px;
+}
+.review1 img{
+  border-radius: 50%;
+  height: 90px;
+}
+.review1 span i{
+  color: gold;
+}
+.review2{
+  background-color:#1b1e21 ;
+  text-align: center;
+  border-radius: 20px;
+}
+.review2 img{
+  border-radius: 50%;
+  height: 90px;
+}
+.review2 span i{
+  color: gold;
+}
+
 @media (max-width:576px) and (min-width:1px){
   .nxt-btn,.pre-btn{
     display: none;
@@ -344,4 +388,5 @@ font-size: 50px;
       top: 20%;
       left: 10%;
   }
+  
 }
